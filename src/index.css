@@ -47,7 +47,9 @@ code {
   }
   a{
     text-decoration: none !important;
-    color: var(--color-primary);
+  }
+  a:hover{
+    color: var(--color-primary) !important;
   }
   li{
     list-style: none;
