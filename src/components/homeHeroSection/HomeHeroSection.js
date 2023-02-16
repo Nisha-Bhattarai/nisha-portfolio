@@ -1,9 +1,13 @@
 import React from "react";
 import "./HomeHeroSection.css";
+import videoBg from "../../assets/video.mp4";
 
 const HomeHeroSection = () => {
   return (
     <div className="homeSection">
+      <video autoPlay muted loop id="myVideo" type="video/mp4">
+        <source src={videoBg} type="video/mp4" />
+      </video>
       <div className="container">
         <h1>
           <div>Hi,</div> <div>I'm</div>
@@ -31,14 +35,13 @@ const HomeHeroSection = () => {
         </div>
         <div className="contents">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            pulvinar consectetur sapien, vitae ultrices mauris aliquam vel.
-            Phasellus pharetra mi erat, lobortis laoreet metus consectetur et.
+            A web developer with a focus on React JS, but still exploring other
+            technologies and frameworks that catch my interest! I enjoy working
+            on the web and ensuring that it remains a platform for all of us to
+            pursue our unique, personal, and creative interests.
           </p>
         </div>
       </div>
-
-      
     </div>
   );
 };

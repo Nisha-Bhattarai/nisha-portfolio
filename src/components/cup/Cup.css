@@ -40,7 +40,7 @@ img {
     
   }
   .front-part {
-    border-top: 90px solid #ff9d8e;
+    border-top: 90px solid #01f28f;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
     height: 0;
@@ -139,7 +139,7 @@ img {
   .mouth2{
     width: 2.5rem;
     height: 1rem;
-    background-color: #ff9d8e;
+    background-color: #01f28f;
     border-radius: 0 0 10rem 10rem;
     position: absolute;
     z-index: 4;
@@ -201,3 +201,9 @@ img {
   }
 
 
+  @media only screen and (max-width: 600px) {
+    .cup-container{
+      margin-bottom: 5%;
+    }
+   
+  }

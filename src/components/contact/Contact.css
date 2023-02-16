@@ -1,0 +1,53 @@
+#contact{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0;
+}
+.chat-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.chat-section{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chat-section .card{
+    width: 80%;
+    padding: 5% 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 35%);
+    cursor: pointer;
+    transition: transform .5s,background .5s,-webkit-transform .5s;
+}
+.info-section{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+.info-section a{
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .chat-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

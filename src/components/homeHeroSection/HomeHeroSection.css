@@ -3,15 +3,26 @@
     padding: 0;
 }
 .homeSection{
-    background: rgb(18, 30, 39);
-    border-top: 1px solid rgb(18, 30, 39);
+    background: var(--color-secondary);
+    border-top: 1px solid var(--color-secondary);
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.container{
-    width: 80%;
-    margin: auto;
-    padding: 10% 0;
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    min-height: 90vh;
+  }
+.homeSection .container{
+    
+    position: absolute;
 }
-h1{
+.homeSection h1{
     font-size: 4rem;
     font-weight: 400;
     display: flex;
@@ -19,7 +30,7 @@ h1{
     color: #fff;
     margin-bottom: 3%;
 }
-h1>div{
+.homeSection h1>div{
     margin-right: 1rem;
 }
 .highlight{
@@ -49,6 +60,11 @@ h1>div{
 }
 .contents p{
     color: rgb(199, 199, 199);
-    font-size: 1.2rem;
     max-width: 30rem;
+}
+
+@media screen and (max-width: 768px){
+    .homeSection h1{
+        font-size: 2rem;
+    }
 }

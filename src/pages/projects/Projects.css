@@ -1,0 +1,57 @@
+#finContainer, #amazonContainer, #covidContainer{
+    margin: 3% 0;
+}
+#finContainer .links,
+#amazonContainer .links,
+#covidContainer .links{
+    display: flex;
+   gap: 50px;
+}
+.links{
+    margin-bottom: 3%;
+}
+.links li {
+    margin-bottom: 3%;
+}
+#finContainer p,
+#amazonContainer p,
+#covidContainer p{
+    margin-bottom: 3%;
+}
+
+.my-button {
+  font-size: 1em;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out, color 0.2s 0.3s;
+  letter-spacing: 0;
+  border-radius: 45px;
+  height: auto;
+  padding: 0.8em 2.1em;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  border: 2px solid var(--color-primary);
+  border-radius: 50px;
+  background: white;
+}
+
+.my-button:hover {
+  cursor: pointer;
+  padding: 0.8em 2.7em;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 14px 1px rgba(0, 0, 0, 0.15);
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.my-button:active,
+.my-button:focus,
+.my-button.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
