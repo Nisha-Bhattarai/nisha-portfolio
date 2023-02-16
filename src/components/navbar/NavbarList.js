@@ -5,20 +5,21 @@ export const navbarList = [
     to: "about",
     title: "About",
   },
+
   {
     id: 2,
-    to: "blog",
-    title: "Blog",
-  },
-  {
-    id: 3,
     to: "projects",
     title: "Projects",
   },
 
   {
-    id: 4,
+    id: 3,
     to: "contact",
     title: "Contact",
   },
+  // {
+  //   id: 4,
+  //   to: "blog",
+  //   title: "Blog",
+  // },
 ];
